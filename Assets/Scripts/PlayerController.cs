@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Vector2 newPosition = Vector2.MoveTowards(this.transform.position, destination, globalSpeed);
+        Vector2 newPosition = Vector2.MoveTowards(this.transform.position, destination, globalSpeed * Time.deltaTime);
         GetComponent<Rigidbody2D>().MovePosition(newPosition);
 
         float distanceToDestination = Vector2.Distance((Vector2)this.transform.position, destination);
