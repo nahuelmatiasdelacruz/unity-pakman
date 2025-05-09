@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody2D>().MovePosition(newPosition);
 
         float distanceToDestination = Vector2.Distance((Vector2)this.transform.position, destination);
-
         if(distanceToDestination < 0.01f)
         {
             if (Input.GetKey(KeyCode.UpArrow) && CanMoveTo(Vector2.up))
@@ -45,10 +44,18 @@ public class PlayerController : MonoBehaviour
 
     bool CanMoveTo(Vector2 direction)
     {
+        Debug.DrawLine(this.transform.position, direction);
         Vector2 start = this.transform.position;
         Vector2 end = start + direction;
         RaycastHit2D hit = Physics2D.Linecast(start, end, LayerMask.GetMask("MazeWall"));
         return hit.collider == null;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!collision.CompareTag("Phantom")) return;
+        GetComponent<Animator>().SetBool("GameOver", true);
+        
     }
 
 }

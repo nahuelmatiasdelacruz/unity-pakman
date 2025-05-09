@@ -10,5 +10,4 @@ public class Pacdot : MonoBehaviour
         if (!collision.CompareTag("Player")) return;
         Destroy(this.gameObject);
     }
-
 }
