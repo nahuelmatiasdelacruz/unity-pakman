@@ -10,7 +10,12 @@ public class GhostMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        if (GameManager.sharedInstance.gamePaused || !GameManager.sharedInstance.gameStarted)
+        {
+            GetComponent<AudioSource>().volume = 0;
+            return;
+        }
+        GetComponent<AudioSource>().volume = 0.4f;
         // Distance between the phantom and destination
         float distanceToWaypoint = Vector2.Distance((Vector2)this.transform.position, (Vector2)waypoints[currentWaypoint].position);
         if (distanceToWaypoint < 0.1f)

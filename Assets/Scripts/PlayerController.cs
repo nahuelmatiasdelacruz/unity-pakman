@@ -4,9 +4,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public AudioSource playerAudioSource;
     public float globalSpeed = 0.1f;
     private Vector2 destination = Vector2.zero;
+
+    private void Awake()
+    {
+        playerAudioSource = GetComponent<AudioSource>();
+    }
+
+    public void StopAudio()
+    {
+        playerAudioSource.Stop();
+    }
+
+    public void PlayAudio()
+    {
+        playerAudioSource.Play();
+    }
 
     private void Start()
     {
@@ -14,6 +29,11 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (GameManager.sharedInstance.gamePaused || !GameManager.sharedInstance.gameStarted) 
+        {
+            GetComponent<AudioSource>().volume = 0;
+        };
+        GetComponent<AudioSource>().volume = 0.5f;
         Vector2 newPosition = Vector2.MoveTowards(this.transform.position, destination, globalSpeed * Time.deltaTime);
         GetComponent<Rigidbody2D>().MovePosition(newPosition);
 
@@ -44,18 +64,9 @@ public class PlayerController : MonoBehaviour
 
     bool CanMoveTo(Vector2 direction)
     {
-        Debug.DrawLine(this.transform.position, direction);
         Vector2 start = this.transform.position;
         Vector2 end = start + direction;
         RaycastHit2D hit = Physics2D.Linecast(start, end, LayerMask.GetMask("MazeWall"));
         return hit.collider == null;
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (!collision.CompareTag("Phantom")) return;
-        GetComponent<Animator>().SetBool("GameOver", true);
-        
-    }
-
 }

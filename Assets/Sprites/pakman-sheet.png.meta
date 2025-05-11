@@ -226,10 +226,10 @@ TextureImporter:
       name: pakman-sheet_6
       rect:
         serializedVersion: 2
-        x: 162
-        y: 262
-        width: 16
-        height: 16
+        x: 171
+        y: 265
+        width: 15
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,34 +244,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_7
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 262
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02f15dfaa1be104418b06ed82409c9e0
-      internalID: -1706102635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_8
       rect:
         serializedVersion: 2
         x: 202
-        y: 262
-        width: 16
-        height: 16
+        y: 270
+        width: 48
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,55 +265,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_9
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 262
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc710c54c7f0e9b4db81530e81acaaf6
-      internalID: -1263283231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_10
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 262
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06374fab7719df94ab7664c46b84b121
-      internalID: 1572198251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_11
       rect:
         serializedVersion: 2
         x: 282
-        y: 262
-        width: 16
-        height: 16
+        y: 246
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,27 +281,6 @@ TextureImporter:
       bones: []
       spriteID: b2b289fc5dfa97248b34743cafe2c512
       internalID: -565397256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_12
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 262
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aed376253a010ca488a84d98a737d39e
-      internalID: -621053061
       vertices: []
       indices: 
       edges: []
@@ -478,10 +394,10 @@ TextureImporter:
       name: pakman-sheet_18
       rect:
         serializedVersion: 2
-        x: 162
-        y: 242
-        width: 16
-        height: 16
+        x: 169
+        y: 246
+        width: 17
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,69 +407,6 @@ TextureImporter:
       bones: []
       spriteID: ca9eb3785ce79bb4883373ef962fbdc4
       internalID: -1075046752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_19
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 242
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c8d6b80c119fe149ac8ddd3b912d710
-      internalID: 1676606475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_20
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 242
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ff4bb8b5ed179d4c9a806cb940e9cb2
-      internalID: -1617278755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_21
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 242
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50ec4d2d2e92fd942af1ec1556fb02cc
-      internalID: -2074166460
       vertices: []
       indices: 
       edges: []
@@ -667,10 +520,10 @@ TextureImporter:
       name: pakman-sheet_27
       rect:
         serializedVersion: 2
-        x: 162
-        y: 222
-        width: 16
-        height: 16
+        x: 169
+        y: 225
+        width: 17
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,34 +538,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_28
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 222
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a112ce47f6a1cfd458bc0f509ff9ca26
-      internalID: -626863467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_29
       rect:
         serializedVersion: 2
         x: 282
-        y: 222
-        width: 16
-        height: 16
+        y: 206
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -722,27 +554,6 @@ TextureImporter:
       bones: []
       spriteID: a1c98867d05a4d148921ec50ed8e3628
       internalID: 331136017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_30
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 222
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3a53b75b934db7498dd9a74ba1f8e19
-      internalID: 2106785618
       vertices: []
       indices: 
       edges: []
@@ -856,10 +667,10 @@ TextureImporter:
       name: pakman-sheet_36
       rect:
         serializedVersion: 2
-        x: 162
-        y: 202
-        width: 16
-        height: 16
+        x: 169
+        y: 206
+        width: 17
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,34 +685,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_37
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 202
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 016565d3a3291674595290bd5e6f0883
-      internalID: -1178230418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_38
       rect:
         serializedVersion: 2
-        x: 202
-        y: 202
-        width: 16
-        height: 16
+        x: 214
+        y: 200
+        width: 26
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -911,69 +701,6 @@ TextureImporter:
       bones: []
       spriteID: 2a79f625f68a8e74fa07cbb6ee66ade6
       internalID: -198435192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_39
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 202
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a05b21ed9092c924387c5d59367367c8
-      internalID: -1287932161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_40
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 202
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 323fc124d5fc94e41b1f67f16c86d29a
-      internalID: -1658822719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_41
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 202
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71e09a8be1f131d4ab4740d3e5779dab
-      internalID: -970896303
       vertices: []
       indices: 
       edges: []
@@ -1150,10 +877,10 @@ TextureImporter:
       name: pakman-sheet_50
       rect:
         serializedVersion: 2
-        x: 162
-        y: 182
-        width: 16
-        height: 16
+        x: 168
+        y: 185
+        width: 22
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1168,34 +895,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_51
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 182
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 011e5febe65a183468667bd1a61ec8a0
-      internalID: -1978912566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_52
       rect:
         serializedVersion: 2
-        x: 202
-        y: 182
-        width: 16
-        height: 16
+        x: 214
+        y: 189
+        width: 26
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,34 +916,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_53
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 182
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9704b40a605473e4799a315bb3c8bd86
-      internalID: 1779107627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_54
       rect:
         serializedVersion: 2
         x: 282
-        y: 182
-        width: 16
-        height: 16
+        y: 166
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1247,27 +932,6 @@ TextureImporter:
       bones: []
       spriteID: cd8521839c5c70f4ba8aaacc12f0bc9a
       internalID: 1517441571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_55
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 182
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a05d33c7a50bd8d4695da4f2c3b1fb3e
-      internalID: -1623350614
       vertices: []
       indices: 
       edges: []
@@ -1444,10 +1108,10 @@ TextureImporter:
       name: pakman-sheet_64
       rect:
         serializedVersion: 2
-        x: 162
-        y: 162
-        width: 16
-        height: 16
+        x: 167
+        y: 166
+        width: 23
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1457,69 +1121,6 @@ TextureImporter:
       bones: []
       spriteID: 612a41e34d73f00439390e1014547f1f
       internalID: 194578012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_65
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 162
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 267924bb2518765428012f9a0caa0009
-      internalID: -977345470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_66
-      rect:
-        serializedVersion: 2
-        x: 282
-        y: 162
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab27f4350b626e844962145aa104fb39
-      internalID: 683871980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_67
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 162
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcb7afd10cd5531498245e0d47bf6b6c
-      internalID: -707188382
       vertices: []
       indices: 
       edges: []
@@ -1696,10 +1297,10 @@ TextureImporter:
       name: pakman-sheet_76
       rect:
         serializedVersion: 2
-        x: 162
-        y: 142
-        width: 16
-        height: 16
+        x: 167
+        y: 146
+        width: 22
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1709,27 +1310,6 @@ TextureImporter:
       bones: []
       spriteID: acd85b09fe50beb4c96d7efbe87758ce
       internalID: 719737055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_77
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 142
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86d145460b9e22649a25a9a9875ba3c1
-      internalID: 532953477
       vertices: []
       indices: 
       edges: []
@@ -1906,10 +1486,10 @@ TextureImporter:
       name: pakman-sheet_86
       rect:
         serializedVersion: 2
-        x: 162
-        y: 122
-        width: 16
-        height: 16
+        x: 167
+        y: 125
+        width: 23
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1919,27 +1499,6 @@ TextureImporter:
       bones: []
       spriteID: d7eb90d381e672141bf0241acd69e1cc
       internalID: 1438187280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_87
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 122
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbe59518366b7044a97d10909a843094
-      internalID: 717182379
       vertices: []
       indices: 
       edges: []
@@ -2095,8 +1654,8 @@ TextureImporter:
       name: pakman-sheet_95
       rect:
         serializedVersion: 2
-        x: 162
-        y: 102
+        x: 170
+        y: 101
         width: 16
         height: 16
       alignment: 0
@@ -2113,32 +1672,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_96
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 102
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b467ee2b81a27e845b4d64d8532c5bcc
-      internalID: 1938321907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_97
       rect:
         serializedVersion: 2
-        x: 202
-        y: 102
+        x: 210
+        y: 101
         width: 16
         height: 16
       alignment: 0
@@ -2150,27 +1688,6 @@ TextureImporter:
       bones: []
       spriteID: c01f05dfe85197249826821430c74b9b
       internalID: 76374148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_98
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 102
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3b0e83e39e482e40b32c7bb35a9def3
-      internalID: -1110743421
       vertices: []
       indices: 
       edges: []
@@ -2347,7 +1864,7 @@ TextureImporter:
       name: pakman-sheet_107
       rect:
         serializedVersion: 2
-        x: 162
+        x: 170
         y: 82
         width: 16
         height: 16
@@ -2365,32 +1882,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_108
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 82
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdf1876e021ad3c4f94c84272180efb0
-      internalID: -1270504523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_109
       rect:
         serializedVersion: 2
-        x: 202
-        y: 82
+        x: 210
+        y: 81
         width: 16
         height: 16
       alignment: 0
@@ -2402,27 +1898,6 @@ TextureImporter:
       bones: []
       spriteID: 51dd930dee5cb4845bc083048913d1d2
       internalID: 627853590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_110
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 82
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43cf2d95ccf222c4c88e7e28430a33ff
-      internalID: 966369216
       vertices: []
       indices: 
       edges: []
@@ -2557,7 +2032,7 @@ TextureImporter:
       name: pakman-sheet_117
       rect:
         serializedVersion: 2
-        x: 162
+        x: 170
         y: 62
         width: 16
         height: 16
@@ -2575,31 +2050,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_118
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 62
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 450e4b9eea2debd4084e6e8700c014e0
-      internalID: 1418179066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_119
       rect:
         serializedVersion: 2
-        x: 202
+        x: 210
         y: 62
         width: 16
         height: 16
@@ -2612,27 +2066,6 @@ TextureImporter:
       bones: []
       spriteID: 8e9df6726cbdfbb4986e67097d11ced5
       internalID: -199868828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pakman-sheet_120
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 62
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb11282fce120bf43aa75121fa928975
-      internalID: 586767810
       vertices: []
       indices: 
       edges: []
@@ -2767,7 +2200,7 @@ TextureImporter:
       name: pakman-sheet_127
       rect:
         serializedVersion: 2
-        x: 162
+        x: 170
         y: 42
         width: 16
         height: 16
@@ -2785,31 +2218,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pakman-sheet_128
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 42
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfbe19b202132da4a8a15e2edaa9a4a8
-      internalID: 1639441742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pakman-sheet_129
       rect:
         serializedVersion: 2
-        x: 202
+        x: 211
         y: 42
         width: 16
         height: 16
