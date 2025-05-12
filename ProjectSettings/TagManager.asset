@@ -7,6 +7,7 @@ TagManager:
   - MazeWall
   - Pacdot
   - Phantom
+  - Fruit
   layers:
   - Default
   - TransparentFX

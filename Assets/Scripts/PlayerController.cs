@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool isDead = false;
     public AudioSource playerAudioSource;
     public float globalSpeed = 0.1f;
     private Vector2 destination = Vector2.zero;
@@ -27,8 +28,19 @@ public class PlayerController : MonoBehaviour
     {
         destination = this.transform.position;
     }
+
+    public void PlayDeathAnimation()
+    {
+        StopAudio();
+        GameManager.sharedInstance.PlayDeathMusic();
+        isDead = true;
+        Animator animator = GetComponent<Animator>();
+        animator.SetBool("isDead", true);
+    }
+
     private void FixedUpdate()
     {
+        if (isDead) return;
         if (GameManager.sharedInstance.gamePaused || !GameManager.sharedInstance.gameStarted) 
         {
             GetComponent<AudioSource>().volume = 0;
